@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+#body{
+	background-color: black;
+}
+
+#header-nav{
+	background-color: white;
+border: 5px solid black;
+}
+
+div img{
+	margin-left: 20%;
+}
+
+h1{margin-left: 2%;
+	color: black;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline 1px;
+    text-decoration-color: #2B60DE;
+    text-shadow: 2px 2px 1px grey;
+	margin-left: 20%;
+    line-height: .65;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+
+p img{
+	margin-left: 40%;
+}
+b{
+	color: green;
+	padding-top: 0px;
+}
+
+.navbar-brand{
+	padding-top: auto;
+}
+
+@media (max-width: 520px) {
+#hours{	border-bottom:2px solid lightgrey;}
+
+h1{padding: 0 0 0 0;
+	margin-left: 3%;
+
+}
+p img{
+	margin-left: 33%;
+}
+}
+
+#items,#Brands,#About,#support{
+	color: #4863A0;
+}
+
+#items1{font-size: 24px;
+	color: black;
+	margin-right: 8%;
+	border: 2px solid yellow;
+}
+#brands{font-size: 20px;
+	color: black;
+	margin-right: 6%;
+	border: 2px solid yellow;
+}
+
+#about{font-size: 20px;
+	color: black;
+	margin-right: 4%;
+	border: 2px solid yellow;
+}
+#Support{font-size: 20px;
+	color: black;
+	margin-right: 2%;
+	border: 2px solid yellow;
+}
+
+#number{font-size: 17px;
+	font: bold 2px;
+	color: green;
+	border: 3px solid black;
+	margin-right: 5%;
+}
+
+a:hover {
+  background-color: black;
+}
+
+#nav-list{
+	text-align: center;
+}
+
+@media (min-width: 950px) and (max-width: 1450px)
+{
+	#Company{margin-left: 1%;
+		font-size: 34px;
+	}
+
+	div img{margin-left: 1%;
+		width: 60;
+	}
+
+#items1{font-size: 1vw;
+	
+	margin-right: 8%;
+	
+}
+#brands{font-size: 1vw;
+	color: black;
+	margin-right: 6%;
+	border: 2px solid yellow;
+}
+
+#about{font-size: 1vw;
+	color: black;
+	margin-right: 4%;
+	border: 2px solid yellow;
+}
+#Support{font-size: 1vw;
+	color: black;
+	margin-right: 2%;
+	border: 2px solid yellow;
+}
+
+}
+
+#callbutton{
+	margin-left: auto;
+	color: white;
+}
+
+#phone{
+	margin-left: 34%;
+}
+
+#shop{
+	margin-left: 0%;
+}
+
+div .jumbotron{
+	box-shadow: 0 0 50px red;
+}
+
+@media (min-width: 950px)
+{
+	div .jumbotron{width: 1900;
+	margin-top: 5%;
+	padding: 0 0 0 0;
+}
+}
+
+#menutile, #specialstile, #maptile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#menutile:hover, #specialstile:hover,#maptile:hover{
+	box-shadow: 0 1px 5px 1px #CCCCCC;
+}
+
+#menutile{
+	background-image: url(https://www.orissapost.com/wp-content/uploads/2019/05/nike_adidas_open_letter_tariffs-350x250.jpg);
+	background-position: center;
+}
+
+#specialstile{
+	background-image: url(https://www.orissapost.com/wp-content/uploads/2019/05/Nike-350x250.jpg);
+	background-position: center;
+}
+
+#menutile span,#specialstile span,#maptile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .5;
+}
+
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 0;
+}
+.panel-footer div.row{
+	margin-bottom: 35px;
+}
+
+#hours, #address{color: white;
+	line-height: 2;
+}
+
+#hours > span, #address > span{
+	font-size: 1.3em;
+}
+
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8
+}
+
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+#testimonials{
+	color: yellow;
+}
+
+.textcenter{color: green;
+	text-align: center;
+}
+
